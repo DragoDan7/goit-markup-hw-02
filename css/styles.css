@@ -107,6 +107,7 @@ body {
   width: 264px;
 }
 .project-buton {
+  font-family: "Roboto", sans-serif;
   background: var(--Light);
   border: 1px solid var(--Accent);
   border-radius: 4px;
@@ -141,4 +142,27 @@ body {
 }
 .hero {
   background-color: #2e2f42;
+}
+.first-sections-name {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.second-section-name {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--Dark);
+}
+.third-section {
+  background-color: var(--Light);
+}
+.people-in-team {
+  background-color: var(--White-background);
+}
+.footer {
+  background-color: var(--Dark);
+}
+.footer-logo-item {
+  color: var(--Light);
 }
