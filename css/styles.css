@@ -150,6 +150,8 @@ body {
   letter-spacing: 0.02em;
 }
 .second-section-name {
+  font-weight: 500;
+  letter-spacing: 0.02em;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
