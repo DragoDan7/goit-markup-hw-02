@@ -1,0 +1,134 @@
+:root {
+  --Primary-Brand: #4d5ae5;
+  --Pressed-state: #404bbf;
+  --Dark: #2e2f42;
+  --Success: #31d0aa;
+  --Text: #434455;
+  --Subtle-Text: #8e8f99;
+  --Accent: #e7e9fc;
+  --Light: #f4f4fd;
+  --White-background: #ffffff;
+  --ModalModal-background: #fcfcfc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--Text);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+.contact,
+.mail {
+  font-style: normal;
+}
+.logo {
+  font-family: "Raleway";
+
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-item {
+  color: var(--Dark);
+}
+.navigation-link {
+  font-size: 16px;
+  line-height: 24px;
+
+  color: var(--Dark);
+}
+.navigation-link:focus,
+.navigation-link:hover {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--Pressed-state);
+}
+.contact,
+.mail {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--Text);
+}
+.contact:focus,
+.contact:hover,
+.mail:focus,
+.mail:hover {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--Pressed-state);
+}
+.hero-text {
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  /* color: #FFFFFF; */
+}
+.hero-buton {
+  background: var(--Primary-Brand);
+
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+
+  color: var(--White-background);
+}
+.hero-buton:focus,
+.hero-buton:hover {
+  background: var(--Pressed-state);
+  cursor: pointer;
+}
+.global-names-style {
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--Dark);
+}
+.global-text-style {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.first-sections-text {
+  width: 264px;
+}
+.footer-text {
+  width: 264px;
+}
+.project-buton {
+  background: var(--Light);
+  border: 1px solid var(--Accent);
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+
+  color: var(--Primary-Brand);
+}
+.project-buton:focus,
+.project-buton:hover {
+  background: #404bbf;
+  cursor: pointer;
+  color: var(--White-background);
+}
+.project-name {
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--Dark);
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--Text);
+}
