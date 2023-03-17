@@ -14,6 +14,7 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: var(--Text);
+  background-color: #ffffff;
 }
 .link {
   text-decoration: none;
@@ -27,16 +28,19 @@ body {
   font-style: normal;
 }
 .logo {
-  font-family: "Raleway";
-
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--Primary-Brand);
 }
 .logo-item {
   color: var(--Dark);
 }
 .navigation-link {
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
 
@@ -55,8 +59,6 @@ body {
 
   color: var(--Text);
 }
-.contact:focus,
-.contact:hover,
 .mail:focus,
 .mail:hover {
   font-size: 16px;
@@ -67,13 +69,15 @@ body {
 .hero-text {
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 
   text-align: center;
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
 .hero-buton {
   background: var(--Primary-Brand);
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
@@ -131,4 +135,10 @@ body {
   line-height: 1.5;
 
   color: var(--Text);
+}
+.adres {
+  font-style: normal;
+}
+.hero {
+  background-color: #2e2f42;
 }
