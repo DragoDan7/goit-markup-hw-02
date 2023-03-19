@@ -12,7 +12,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  letter-spacing: 0.02em;
+
   color: var(--Text);
   background-color: #ffffff;
 }
@@ -99,14 +99,14 @@ body {
   color: var(--Dark);
 }
 .global-text-style {
+  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
 }
-.first-sections-text {
-  width: 264px;
-}
+
 .footer-text {
   width: 264px;
+  color: var(--Light);
 }
 .project-buton {
   font-size: 16px;
@@ -115,6 +115,7 @@ body {
   background: var(--Light);
   border: 1px solid var(--Accent);
   border-radius: 4px;
+  cursor: pointer;
 
   font-size: 16px;
   line-height: 1.5;
@@ -126,7 +127,7 @@ body {
 .project-buton:focus,
 .project-buton:hover {
   background: #404bbf;
-  cursor: pointer;
+
   color: var(--White-background);
 }
 .project-name {
@@ -138,6 +139,7 @@ body {
   color: var(--Dark);
 }
 .project-type {
+  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
 
@@ -154,7 +156,7 @@ body {
   letter-spacing: 0.02em;
 }
 .second-section-name {
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.02em;
   font-size: 36px;
   line-height: 1.11;
