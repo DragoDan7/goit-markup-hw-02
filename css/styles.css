@@ -18,12 +18,10 @@ body {
 }
 .link {
   text-decoration: none;
-  letter-spacing: 0.2em;
 }
 .list {
   list-style: none;
   text-decoration: none;
-  letter-spacing: 0.2em;
 }
 .contact,
 .mail {
@@ -42,6 +40,7 @@ body {
   color: var(--Dark);
 }
 .navigation-link {
+  letter-spacing: 0.2em;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -58,6 +57,7 @@ body {
 .mail {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.2em;
 
   color: var(--Text);
 }
